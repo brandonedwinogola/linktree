@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    margin: 50px auto;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .bio {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .button {
+    background-color: #bdcff1;
+    padding: 16px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: center;
+  }
+  
+  .button:hover {
+    background: transparent;
+    border: 1px solid #12f5fd;
+    color: #282c2c;
+  }
